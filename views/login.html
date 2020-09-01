@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>IOT Website | LOGIN</title>
+        <link rel="icon" href="images/login-signup-icon.png">
+        <link rel="stylesheet" href="stylesheets/login.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.11.2/build/css/alertify.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.11.2/build/alertify.min.js"></script>
+        <script src="javascripts/functions.js"></script>
+    </head>
+    <body>
+        <div class="css-login-box">
+            <form method="POST">
+                <div class="css-title-text">LOGIN</div>
+                <div ><img style = "width:200px;margin-bottom: 10%;"src="images/logo.png"/></div>
+                <div class="css-info-box">
+                    <i class="fa fa-users css-info-icon"></i>
+                    <input class="js-group-name-login css-input" type="text" placeholder="Group Name">
+                </div>
+                <div class="css-info-box">
+                    <i class="fas fa-unlock css-info-icon"></i>
+                    <input class="js-password-login css-input" type="password" placeholder="Password">
+                    <div class="css-show-password-box">
+                        <button class="js-show-password css-show-password-btn" type="button" onclick="showHidePassword()" >
+                            <i class="fa fa-eye js-show-password-icon"></i>
+                        </button>
+                    </div>
+                </div>
+                <div>
+                    <button class="js-submit-btn css-submit-btn" type="button" onclick="loginLoad()">
+                        LOGIN
+                        <div class="css-loader"></div>
+                    </button>
+                </div>
+                <div class="js-response css-response"></div>
+                <div class="css-signup-text">
+                    Don't have an Account? <a class="css-link" href="/signup">SIGNUP</a>
+                </div>
+            </form>
+        </div>
+        <div class="css-followus">
+                <a class="css-icon-link" href="https://twitter.com" title="Follow us on twitter"><i class="fab fa-twitter"></i></a>
+                <a class="css-icon-link" href="https://facebook.com" title="Like us on facebook"><i class="fab fa-facebook-f"></i></a>
+                <a class="css-icon-link" href="https://t.me/iot_fall97" title="Join us in Telegram"><i class="fab fa-telegram"></i></a>
+                <a class="css-icon-link" href="https://instagram.com" title="Follow us on Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="css-copyright-text">
+            <address>Copyright <i class="far fa-copyright"></i> 2018 IOT website all rights reserved.</address>
+        </div>
+    </body>
+</html>

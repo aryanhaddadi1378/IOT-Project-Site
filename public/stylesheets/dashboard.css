@@ -1,0 +1,167 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size: 100% auto;
+    background-image: linear-gradient(to right, rgb(255, 115, 0), rgb(255, 0, 140));    text-align: center;
+}
+
+.css-group-info {
+    /* font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif; */
+    /* color: rgb(255, 0, 140); */
+    font-size: 14px;
+    width: 200px;
+    text-align: left;
+    /* margin-bottom: 20%;
+    margin-top: 10%; */
+    margin-left: 1%;
+}
+
+.css-description {
+    font-size: 15px;
+    border: 1px solid rgb(216,216,216);
+    border-radius: 20px;
+    color:black;
+    margin: 1%;
+    text-align: left;
+/*     margin-top: 4%; */
+    width: 400px;
+    padding:2%;
+/*     margin-left: 10%; */
+/*     margin-right: 10%; */
+
+}
+
+.css-iframe {
+    /* color: blue; */
+    border-radius: 20px;
+    width: 450px;
+    height: 270px;
+    margin: 1%;
+}
+
+.css-input {
+    outline: none;
+    background-color: white;
+    border: 0px solid rgb(165, 165, 165);
+    color: black;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    width: 70%;
+    height: 30px;
+}
+
+.css-login-box {
+    display: flex;
+    /* justify-content: center; */
+    background-color: white;
+    border: 1px solid rgba(104, 104, 104, 0.2);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 5%;
+    /* height: 40%; */
+    width: 1000px;
+}
+
+.css-sub-box {
+    display: flex;
+}
+
+.css-logo {
+    background-image: url("images/logo.png")
+}
+
+.css-title-text {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    color: rgb(255, 0, 140);
+    font-size: 20px;
+    /* margin-bottom: 20%;
+    margin-top: 10%; */
+    width: 200px;
+    /* text-align: center; */
+    margin-top: 20%;
+}
+
+/* .css-input:focus .css-info-box{
+    border: 1px solid rgb(155, 155, 155);
+}
+
+.css-input:focus .css-info-icon {
+    color: rgb(155, 155, 155);
+} */
+
+.css-info-icon {
+    color: rgb(185, 185, 185);
+    margin: 4%;
+    margin-left: 8%;
+}
+
+.css-followus {
+    display: flex;
+    width: 370px;
+    margin: 0px auto;
+    justify-content: center;
+}
+
+.css-link {
+    /* text-align: left; */
+    /* align-self: flex-end; */
+    color: rgb(255, 0, 140);
+    text-decoration: none;
+    font-size: 12px;
+    /* margin: 20%; */
+}
+
+a:hover {
+    color: rgb(255, 115, 0);
+}
+
+.css-copyright-text {
+    color: white;
+    font-size: 10px;
+    width: 370px;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.css-icon-link{
+    color: rgb(100, 100, 100);
+    background-color: white;
+    border: 1px solid rgba(104, 104, 104, 0.2);;
+    font-size: 15px;
+    display: block;
+    padding: 2.5%;
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.css-icon-link:hover {
+    color: white;
+    background-color: rgb(100, 100, 100);
+}
+
+.css-loader {
+    display: none;
+    border-radius: 50%;
+    border: 2px solid white;
+    border-top: 2px solid transparent;
+    margin-left: 5px;
+    width: 10px;
+    height: 10px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.ajs-visible {
+    background-image: linear-gradient(to right, rgb(255, 115, 0), rgb(255, 0, 140));
+    color: white;
+    border-radius: 30px;
+    right: 20px;
+    font-size: 12px;
+}

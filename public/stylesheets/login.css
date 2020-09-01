@@ -1,0 +1,206 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size: 100% auto;
+    background-image: linear-gradient(to right, rgb(255, 115, 0), rgb(255, 0, 140));
+    text-align: center;
+  }
+  
+  .css-input {
+    outline: none;
+    background-color: white;
+    border: 0px solid rgb(165, 165, 165);
+    color: black;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    width: 70%;
+    height: 30px;
+  }
+  
+  ::placeholder {
+    color: rgb(185, 185, 185);
+    font-size: 12px;
+  }
+  
+  .ajs-visible {
+    background-image: linear-gradient(to right, rgb(255, 115, 0), rgb(255, 0, 140));
+    color: white;
+    border-radius: 30px;
+    right: 20px;
+    font-size: 12px;
+  }
+  
+  .css-login-box {
+    background-color: white;
+    border: 1px solid rgba(104, 104, 104, 0.2);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 5%;
+    height: 40%;
+    width: 320px;
+  }
+  
+
+  
+  .css-title-text {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    color: rgb(255, 0, 140);
+    font-size: 20px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+  
+  .css-info-box {
+    background-color: white;
+    border: 1px solid rgb(185, 185, 185);
+    color: black;
+    margin: 0px auto;
+    display: flex;
+    margin-bottom: 3%;
+    font-size: 100%;
+    border-radius: 30px;
+    width: 80%;
+    height: 40px;
+  }
+  
+  .css-info-box:hover {
+    border: 1px solid rgb(155, 155, 155);
+  }
+  
+  .css-info-box:hover .css-info-icon {
+    color: rgb(155, 155, 155);
+  }
+  
+  .css-input:focus .css-info-box{
+    border: 1px solid rgb(155, 155, 155);
+  }
+  
+  .css-input:focus .css-info-icon {
+    color: rgb(155, 155, 155);
+  }
+  
+  .css-info-icon {
+    color: rgb(185, 185, 185);
+    margin: 4%;
+    margin-left: 8%;
+  }
+  
+  .css-submit-btn {
+    outline: none;
+    background-image: linear-gradient(to right, rgb(255, 115, 0), rgb(255, 0, 140));
+    color: white;
+    border: 0px;
+    border-radius: 30px;
+    margin-top: 10%;
+    height: 40px;
+    width: 80%;
+  }
+  
+  .css-submit-btn:hover {
+    background-image: linear-gradient(to right, rgb(255, 140, 45), rgb(255, 42, 159));
+    cursor: pointer;
+}
+
+.css-submit-btn:focus {
+    background-image: linear-gradient(to right, rgb(255, 140, 45), rgb(255, 42, 159));
+}
+  
+  .css-followus {
+    display: flex;
+    width: 370px;
+    margin: 0px auto;
+    justify-content: center;
+  }
+  
+  .css-link {
+    color: rgb(255, 0, 140);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(255, 115, 0);
+  }
+  
+  .css-copyright-text {
+    color: white;
+    font-size: 10px;
+    width: 370px;
+    margin: 0 auto;
+    margin-top: 2%;
+  }
+  
+  .css-response {
+    background-color: rgb(255, 203, 231);
+    margin: 10%;
+    color: rgb(255, 0, 140);
+    font-size: 12px;
+  }
+  
+  .css-show-password-btn {
+    outline: none;
+    color: rgb(185, 185, 185);
+    background-color: white;
+    border: 0px;
+    border-radius: 2px;
+    margin-top: 35%;
+    width: 30px;
+    height: 17px;
+  }
+  
+  .css-show-password-btn:hover {
+    cursor: pointer;
+    color: rgb(155, 155, 155);
+  }
+  
+  .css-show-password-btn:focus {
+    color: rgb(155, 155, 155);
+  }
+  
+  .css-icon-link{
+    color: rgb(100, 100, 100);
+    background-color: white;
+    border: 1px solid rgba(104, 104, 104, 0.2);;
+    font-size: 15px;
+    display: block;
+    padding: 2.5%;
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  
+  .css-icon-link:hover {
+    color: white;
+    background-color: rgb(100, 100, 100);
+  }
+  
+  .css-forgot-password {
+    font-size: 12px;
+    margin-left: 45%;
+    color: rgb(255, 0, 140);
+    text-decoration: none;
+  }
+  
+  .css-signup-text {
+    color: black;
+    margin: 3%;
+    margin-top: 10%;
+    font-size: 12px;
+  }
+  
+  .css-loader {
+    display: none;
+    border: 2px solid white;
+    border-radius: 50%;
+    border-top: 2px solid transparent;
+    margin-left: 5px;
+    width: 10px;
+    height: 10px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
